@@ -47,7 +47,7 @@ const obtenerConsejo = async () => {
         // TODO: console.error...
         console.error(error);
         // TODO: text.textcontent = ...
-        textoConsejo.textContent = `¡Ups! Ocurrió un error al obtener el consejo. Por favor, intenta de nuevo.`;
+        textoConsejo.textContent = `¡Ups! Ocurrió un error al obtener el consejo. Por favor, intenta de nuevo`;
 
     } finally {
         // El bloque finally se ejecuta SIEMPRE, haya error o no.
